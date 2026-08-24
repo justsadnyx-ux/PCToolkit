@@ -1,6 +1,6 @@
 # PC Toolkit
 
-A lightweight Windows bootstrapper and PC utility. It installs itself like a classic game launcher, keeps an eye on your hardware in real time, ships maintenance tools, and updates automatically — no manual downloads required.
+A lightweight Windows bootstrapper and PC utility with a modern dark WPF interface. It installs itself like a classic game launcher, monitors your hardware in real time, ships maintenance tools, and updates automatically — no manual downloads required.
 
 > **Proprietary software.** PC Toolkit was built independently and is **not** open source. The source code is private; this repository exists only to distribute official builds.
 
@@ -9,11 +9,13 @@ A lightweight Windows bootstrapper and PC utility. It installs itself like a cla
 ## Features
 
 - **Bootstrapper installer** — first-run setup with a live summary of your CPU, RAM, cores, OS and free disk space before you click Install
+- **Modern WPF UI** — dark Catppuccin-inspired theme with styled tabs, cards, progress bars and buttons
 - **System specs dashboard** — processor, graphics, motherboard, memory speed, uptime and a per-drive storage table
 - **Live stats** — real-time CPU load, memory usage and per-drive activity, refreshed every second
 - **Maintenance tools** — one-click temp-file cleanup, DNS flush, Explorer restart, Disk Cleanup, elevated SFC scan, Task Manager
 - **Logs & tools** — download log bundles from any http(s) URL and generate a full system report (specs, top processes, recent event-log warnings/errors)
 - **Automatic updates** — the app checks this repository's Releases feed on startup and self-applies new versions
+- **Android companion** — a matching Android app with device specs, live stats and self-update via sideloaded APK (source included, builds with Android SDK 34)
 
 ## Download
 
@@ -34,7 +36,7 @@ PC Toolkit checks for a newer release every time it starts (and any time from th
 
 ## Uninstalling
 
-Run the installed copy with the `--uninstall` argument, or use *Settings → Apps → Installed apps → PC Toolkit* on Windows.
+Run the installed copy with the `--uninstall` argument, or use *Settings > Apps > Installed apps > PC Toolkit* on Windows.
 
 ## System requirements
 
